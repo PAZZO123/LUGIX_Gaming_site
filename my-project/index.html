@@ -5,6 +5,9 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css">
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <title>Vite App</title>
   </head>
   <body class="box-border">
@@ -42,28 +45,97 @@
       
 
     </div>
-    <div class=" flex justify-center gap-6 w-full -mt-20 ">
-      <div class=" border-2 border-gray-100 p-10 flex flex-col items-center justify-center shadow-2xl  w-1/6 bg-white rounded-t-3xl gap-5">
-        <div class="bg-blue-500 w-[90px] h-[90px] flex items-center justify-center rounded-full  hover:bg-red-400 cursor-pointer" > <img class="w-11 h-11" src="Images/featured-01.png" alt=""></div>
+    <!-- Block cards -->
+    <div class=" flex justify-center gap-6 w-full -mt-20  ">
+      <div class=" border-2 border-gray-100 p-10 flex flex-col items-center justify-center shadow-sm  w-1/6 bg-white rounded-3xl gap-5 group ">
+        <div class="bg-blue-500 w-[90px] h-[90px] flex items-center justify-center rounded-full  group-hover:bg-red-400 cursor-pointer" > <img class="w-11 h-11" src="Images/featured-01.png" alt=""></div>
         <h1 class="font-bold text-lg">FREE STORAGE</h1>
       </div>
      
-        <div class=" border-2 border-gray-100 p-10 flex flex-col items-center justify-center shadow-2xl  w-1/6 bg-white rounded-t-3xl gap-5">
-        <div class="bg-blue-500 w-[90px] h-[90px] flex items-center justify-center rounded-full  hover:bg-red-400 cursor-pointer" > <img class="w-11 h-11" src="Images/featured-02.png" alt=""></div>
+        <div class=" border-2 border-gray-100 p-10 flex flex-col items-center justify-center shadow-sm  w-1/6 bg-white rounded-3xl gap-5 group">
+        <div class="bg-blue-500 w-[90px] h-[90px] flex items-center justify-center rounded-full  group-hover:bg-red-400 cursor-pointer" > <img class="w-11 h-11" src="Images/featured-02.png" alt=""></div>
         <h1 class="font-bold text-lg">USER MORE</h1>
       </div>
-       <div class=" border-2 border-gray-100 p-10 flex flex-col items-center justify-center shadow-2xl  w-1/6 bg-white rounded-t-3xl gap-5">
-        <div class="bg-blue-500 w-[90px] h-[90px] flex items-center justify-center rounded-full  hover:bg-red-400 cursor-pointer" > <img class="w-11 h-11" src="Images/featured-03.png" alt=""></div>
+       <div class=" border-2 border-gray-100 p-10 flex flex-col items-center justify-center shadow-sm  w-1/6 bg-white rounded-3xl gap-5 group">
+        <div class="bg-blue-500 w-[90px] h-[90px] flex items-center justify-center rounded-full  group-hover:bg-red-400 cursor-pointer" > <img class="w-11 h-11" src="Images/featured-03.png" alt=""></div>
         <h1 class="font-bold text-lg">REPLY READY</h1>
       </div>
      
-        <div class=" border-2 border-gray-100 p-10 flex flex-col items-center justify-center shadow-2xl  w-1/6 bg-white rounded-t-3xl gap-5">
-        <div class="bg-blue-500 w-[90px] h-[90px] flex items-center justify-center rounded-full  hover:bg-red-400 cursor-pointer" > <img class="w-11 h-11" src="Images/featured-04.png" alt=""></div>
+        <div class=" border-2 border-gray-100 p-10 flex flex-col items-center justify-center shadow-sm  w-1/6 bg-white rounded-3xl gap-5 group">
+        <div class="bg-blue-500 w-[90px] h-[90px] flex items-center justify-center rounded-full  group-hover:bg-red-400 cursor-pointer" > <img class="w-11 h-11" src="Images/featured-04.png" alt=""></div>
         <h1 class="font-bold text-lg">EASY LAYOUT</h1>
       </div>
      
     </div>
-   </div>
+
+    <!-- Section 2  Most trending Games -->
+    <div class=" flex  flex-col mx-70 mt-25">
+      <div class="flex flex-row justify-between">
+       <div> <h1 class="text-red-500 font-bold">TRENDING</h1>
+      <h1 class="font-bold text-4xl mt-2">Trending Games</h1></div>  
+       <div class="  bg-red-400 py-3 rounded-full px-2 w-40 text-white font-bold  flex justify-center items-center h-12 hover:bg-blue-500"><a href="#">VIEW ALL</a></div>
+      </div>
+      <!-- Trending Image Section -->
+      <div class="mt-20 flex gap-5">
+        <div class=" relative  flex flex-col  shadow-2xl  w-1/4 rounded-3xl bg-blue-50 hover:bg-blue-100 group"> <div class="bg-blue-500  flex justify-center items-center flex-col w-14 text-white rounded-lg text-lg absolute left-[250px] top-4 py-1"> <h1 class="line-through text-sm">$28</h1>
+        <h1 class="font-bold">$20</h1></div> <img class="w-full object-cover rounded-3xl " src="Images/trending-01.jpg" alt="">
+        <div class="flex flex-row justify-between p-4">
+          <div><h1 class="text-gray-500">Action</h1>
+          <h1 class="text-lg font-bold group-hover:text-blue-500">Assasin Creed</h1></div>
+          <div class="bg-red-400 h-9.5 w-9.5 flex items-center justify-center text-white rounded-full mt-2 group-hover:bg-blue-500"><i class="fa fa-shopping-bag"></i></div>
+        </div>
+      </div>
+
+         <div class=" relative  flex flex-col  shadow-2xl  w-1/4 rounded-3xl bg-blue-50 hover:bg-blue-100 group"> <div class="bg-blue-500  flex justify-center items-center flex-col w-14 text-white rounded-lg text-lg absolute left-[250px] top-4 py-1">
+        <h1 class="font-bold">$44</h1></div> <img class="w-full object-cover rounded-3xl " src="Images/trending-02.jpg" alt="">
+        <div class="flex flex-row justify-between p-4">
+          <div><h1 class="text-gray-500">Action</h1>
+          <h1 class="text-lg font-bold group-hover:text-blue-500">Assasin Creed</h1></div>
+          <div class="bg-red-400 h-9.5 w-9.5 flex items-center justify-center text-white rounded-full mt-2 group-hover:bg-blue-500"><i class="fa fa-shopping-bag"></i></div>
+        </div>
+      </div>
+         <div class=" relative  flex flex-col  shadow-2xl  w-1/4 rounded-3xl bg-blue-50 hover:bg-blue-100 group"> <div class="bg-blue-500  flex justify-center items-center flex-col w-14 text-white rounded-lg text-lg absolute left-[250px] top-4 py-1"> <h1 class="line-through text-sm">$62</h1>
+        <h1 class="font-bold">$44</h1></div> <img class="w-full object-cover rounded-3xl " src="Images/trending-03.jpg" alt="">
+        <div class="flex flex-row justify-between p-4">
+          <div><h1 class="text-gray-500">Action</h1>
+          <h1 class="text-lg font-bold group-hover:text-blue-500">Assasin Creed</h1></div>
+          <div class="bg-red-400 h-9.5 w-9.5 flex items-center justify-center text-white rounded-full mt-2 group-hover:bg-blue-500"><i class="fa fa-shopping-bag"></i></div>
+        </div>
+      </div>
+         <div class=" relative  flex flex-col  shadow-2xl  w-1/4 rounded-3xl bg-blue-50 hover:bg-blue-100 group"> <div class="bg-blue-500  flex justify-center items-center flex-col w-14 text-white rounded-lg text-lg absolute left-[250px] top-4 py-1"> 
+        <h1 class="font-bold">$32</h1></div> <img class="w-full object-cover rounded-3xl " src="Images/trending-04.jpg" alt="">
+        <div class="flex flex-row justify-between p-4">
+          <div><h1 class="text-gray-500">Action</h1>
+          <h1 class="text-lg font-bold group-hover:text-blue-500">Assasin Creed</h1></div>
+          <div class="bg-red-400 h-9.5 w-9.5 flex items-center justify-center text-white rounded-full mt-2 group-hover:bg-blue-500"><i class="fa fa-shopping-bag"></i></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+      <!-- Most Played Games Section -->
+       <div class=" flex  flex-col mx-70 mt-25">
+      <div class="flex flex-row justify-between">
+       <div> <h1 class="text-red-500 font-bold">TOP GAMES</h1>
+      <h1 class="font-bold text-4xl mt-2">Most Played</h1></div>  
+       <div class="  bg-red-400 py-3 rounded-full px-2 w-40 text-white font-bold  flex justify-center items-center h-12 hover:bg-blue-500"><a href="#">VIEW ALL</a></div>
+      </div>
+      <!-- Trending Image Section -->
+      <div class="mt-20 flex gap-5">
+        <div class=" relative  flex flex-col  shadow-2xl  w-1/6 rounded-3xl bg-blue-50 hover:bg-blue-100 group"> 
+        <img class="w-full object-cover rounded-3xl " src="Images/trending-01.jpg" alt="">
+        <div class=" flex flex-col items-center justify-center gap-3">
+          <div><h1 class="text-gray-500">Adventure</h1>
+          <h1 class="text-lg font-bold group-hover:text-blue-500 -ml-5">Assasin Creed</h1></div>
+           <div class="  bg-red-400 py-3 rounded-full  w-25 text-white font-bold  flex justify-center items-center h-8 hover:bg-blue-500"><a href="#">Explore</a></div>
+       
+        </div>
+      </div>
+
+      </div>
+      </div>
+    </div>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
