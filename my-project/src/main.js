@@ -22,3 +22,7 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+window.addEventListener('scroll', function(){
+  console.log('Page scrolled!')
+});
+
