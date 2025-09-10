@@ -1,1 +1,9 @@
 @import "tailwindcss";
+@layer utilities{
+  .flex-center{
+    @apply flex justify-center items-center
+  }
+  .btn-anim{
+    @apply  transition active:scale-75 
+  }
+}
